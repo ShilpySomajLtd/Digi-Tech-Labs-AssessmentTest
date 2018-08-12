@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (4.7.3)
+  - ARSLineProgress (2.2.1)
+  - UIColor_Hex_Swift (4.0.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - ARSLineProgress
+  - UIColor_Hex_Swift
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - ARSLineProgress
+    - UIColor_Hex_Swift
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  ARSLineProgress: b344944496913e98d8fe7bab94ea5d488fbf41fb
+  UIColor_Hex_Swift: c5ff88470499383b8fd85302d59344bb24ba9436
+
+PODFILE CHECKSUM: 08e512449a3d6b29c73d356bff9f411f562b12d8
+
+COCOAPODS: 1.5.3
