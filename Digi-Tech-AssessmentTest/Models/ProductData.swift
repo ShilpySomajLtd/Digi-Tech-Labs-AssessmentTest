@@ -7,10 +7,12 @@
 //
 
 import Foundation
+import CoreData
+import UIKit
 
 struct ProductData: Codable {
-    let data: [Product]
+    var data: [Product]?
     let is_success: Bool
-    let message: String
-    let version: String
+    let message: String?
+    let version: String?
 }

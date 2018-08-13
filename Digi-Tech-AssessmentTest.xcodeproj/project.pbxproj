@@ -21,6 +21,10 @@
 		D9075AA9211F531C006EA092 /* ProductCVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9075AA8211F531C006EA092 /* ProductCVCell.swift */; };
 		D9AEA981211FECD2006B9B4D /* ServerDataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AEA980211FECD2006B9B4D /* ServerDataHelper.swift */; };
 		D9AEA983211FF2D6006B9B4D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AEA982211FF2D6006B9B4D /* Constants.swift */; };
+		D9AEA9872120A8B7006B9B4D /* CreateProductVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AEA9862120A8B7006B9B4D /* CreateProductVC.swift */; };
+		D9AEA9892120AC49006B9B4D /* CreateProductNC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AEA9882120AC49006B9B4D /* CreateProductNC.swift */; };
+		D9AEA98B2120DB4F006B9B4D /* Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AEA98A2120DB4F006B9B4D /* Products.swift */; };
+		D9AEA9922120E456006B9B4D /* ProductController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9AEA9912120E456006B9B4D /* ProductController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +44,10 @@
 		D9075AA8211F531C006EA092 /* ProductCVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCVCell.swift; sourceTree = "<group>"; };
 		D9AEA980211FECD2006B9B4D /* ServerDataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerDataHelper.swift; sourceTree = "<group>"; };
 		D9AEA982211FF2D6006B9B4D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D9AEA9862120A8B7006B9B4D /* CreateProductVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProductVC.swift; sourceTree = "<group>"; };
+		D9AEA9882120AC49006B9B4D /* CreateProductNC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateProductNC.swift; sourceTree = "<group>"; };
+		D9AEA98A2120DB4F006B9B4D /* Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Products.swift; sourceTree = "<group>"; };
+		D9AEA9912120E456006B9B4D /* ProductController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductController.swift; sourceTree = "<group>"; };
 		DE980448C30C8CD2C64B4C28 /* Pods-Digi-Tech-AssessmentTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Digi-Tech-AssessmentTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-Digi-Tech-AssessmentTest/Pods-Digi-Tech-AssessmentTest.release.xcconfig"; sourceTree = "<group>"; };
 		EC439AFDD6F26122723DECF9 /* Pods-Digi-Tech-AssessmentTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Digi-Tech-AssessmentTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Digi-Tech-AssessmentTest/Pods-Digi-Tech-AssessmentTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -106,6 +114,9 @@
 				D9075A98211F47E7006EA092 /* Info.plist */,
 				D9075A90211F47E5006EA092 /* Digi_Tech_AssessmentTest.xcdatamodeld */,
 				D9AEA982211FF2D6006B9B4D /* Constants.swift */,
+				D9AEA9862120A8B7006B9B4D /* CreateProductVC.swift */,
+				D9AEA9882120AC49006B9B4D /* CreateProductNC.swift */,
+				D9AEA9912120E456006B9B4D /* ProductController.swift */,
 			);
 			path = "Digi-Tech-AssessmentTest";
 			sourceTree = "<group>";
@@ -115,6 +126,7 @@
 			children = (
 				D9075A9F211F4852006EA092 /* Product.swift */,
 				D9075AA1211F4923006EA092 /* ProductData.swift */,
+				D9AEA98A2120DB4F006B9B4D /* Products.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -251,12 +263,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9AEA9872120A8B7006B9B4D /* CreateProductVC.swift in Sources */,
 				D9075AA9211F531C006EA092 /* ProductCVCell.swift in Sources */,
 				D9075A92211F47E5006EA092 /* Digi_Tech_AssessmentTest.xcdatamodeld in Sources */,
 				D9075AA2211F4923006EA092 /* ProductData.swift in Sources */,
 				D9075AA7211F4DF0006EA092 /* RoundedView.swift in Sources */,
+				D9AEA9892120AC49006B9B4D /* CreateProductNC.swift in Sources */,
 				D9075AA5211F4CAB006EA092 /* GradientView.swift in Sources */,
+				D9AEA98B2120DB4F006B9B4D /* Products.swift in Sources */,
 				D9AEA983211FF2D6006B9B4D /* Constants.swift in Sources */,
+				D9AEA9922120E456006B9B4D /* ProductController.swift in Sources */,
 				D9075AA0211F4852006EA092 /* Product.swift in Sources */,
 				D9AEA981211FECD2006B9B4D /* ServerDataHelper.swift in Sources */,
 				D9075A8C211F47E5006EA092 /* ProductsVC.swift in Sources */,

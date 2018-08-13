@@ -7,7 +7,12 @@
 //
 
 import Foundation
+import CoreData
+import UIKit
+
 
 class Constants {
     static let API_URL = "http://77.68.80.27:4010/marketplaceapi/getsubmenulistbycategoryid/"
+    static var container: NSPersistentContainer? =
+        (UIApplication.shared.delegate as? AppDelegate)?.persistentContainer
 }
